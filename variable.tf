@@ -8,8 +8,3 @@ variable "aws_secret_key" {
   description = "AWS Secret Key"
 }
 
-variable "key_pair_name" {
-  type        = string
-  description = "EC2 key pair name"
-  default     = ""
-}
